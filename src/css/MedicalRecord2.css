@@ -1,0 +1,110 @@
+.MedicalRecord2{
+  width:300px;
+  padding:30px;
+}
+
+.MedicalRecord2-greet{
+    display: flex;
+    width: 225px;
+    height: 55px;
+}
+
+.MedicalRecord2-greet-img{
+    width: 55px;
+    height: 55px;
+}
+
+.MedicalRecord2-greet-text{
+    width: 155px;
+    height: 55px;
+    padding: 5px;
+}
+
+.MedicalRecord2-greet-text-h1{
+    text-align: left;
+    font-size: 20px;
+    margin:0px;
+    padding:0px;
+}
+
+.MedicalRecord2-greet-text-p{
+    font-size: 16px;
+    text-align: left;
+    margin:0px;
+    padding:0px;
+}
+
+.MedicalRecord2-search{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.MedicalRecord2-search-input{
+    all: unset;
+    width: 300px;
+    height: 46px;
+    border: 1px solid #516BFF;
+    border-radius: 10px;
+    padding:0px;
+}
+
+.MedicalRecord2-filter{
+    display: flex;
+    justify-content: space-between;
+}
+
+.MedicalRecord2-filter-item{
+    font-size: 15px;
+    margin:0px;
+    padding:0px;
+    padding-right: 10px;
+    cursor: pointer;
+    border-bottom: 1px dashed #516BFF;
+}
+
+.MedicalRecord2-filter-item:hover{
+    color: #516BFF;
+}
+
+.MedicalRecord2-qr-div{
+    box-shadow: -4px 7px 18px 0px #9f9d9d;
+    color: white;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding: 20px;
+    background-color: #516BFF;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.MedicalRecord2-qr{
+    padding-right: 30px;
+}
+
+.MedicalRecord2-info{
+    box-shadow: -4px 7px 18px 0px #9f9d9d;
+    background-color:white;
+    border-radius: 10px;
+    border-left: 3px solid #516BFF;
+    height: 71px;
+    padding:10px;
+    margin-top:10px;
+}
+
+.MedicalRecord2-info-name{
+    font-size: 13px;
+    margin:0px;
+}
+
+
+.MedicalRecord2-info-times{
+    display: flex;
+    justify-content: space-between;
+}
+
+.MedicalRecord2-info-time-p{
+    font-size: 10px;
+    margin:0px;
+    padding:0px;
+}
