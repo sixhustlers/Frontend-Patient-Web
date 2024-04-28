@@ -2,12 +2,13 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: #f8f9fa;
+    background-color: #fff;
     padding: 10px;
     position: fixed;
     width: 340px;
     height: 73px;
-    z-index:1;
+    bottom: 0;
+    z-index:10;
 }
 
 .footerNav__item{
