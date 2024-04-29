@@ -7,13 +7,14 @@ import MedicalRecordDates from './screens/MedicalRecordDates';
 import Hospitals from './screens/Hospitals';
 import Doctors from './screens/Doctors';
 import PatientDetails from './screens/RegisterForm';
+import Home from './screens/Home'
 
 function App() {
 
   return (
     <BrowserRouter basename='/'>
       <Routes>
-        {/* <Route path="/" element={<Home />} /> */}
+        <Route path="/" element={<Home />} />
         <Route path="/detailsForm" element={<PatientDetails />} />
         <Route path="/*" element={<h1>Not Found 404</h1>} />
         <Route path="/medicalRecord1" element={<MedicalRecord1 />} />

@@ -49,8 +49,8 @@ function PatientDetails() {
       
       const image=document.querySelector('.add-image img');
       image.src=base64;
-      image.style.width='100%';
-      image.style.height='100%';
+      image.style.width='80px';
+      image.style.height='80px';
       image.style.borderRadius='50%';
       
    }
