@@ -57,13 +57,14 @@
     padding-top: 20px;
     height: 73px;
     margin-top:10px;
+    cursor: pointer;
 }
 
 .MedicalRecord1-record-date{
     text-align: left;
     font-size: 8px;
-    color: #000000;
-    font-weight: 100;
+    color: #1C274C;
+    font-weight: 500;
     margin:0px;
     padding:0px;
 }
@@ -80,6 +81,7 @@
     font-size: 16px;
     margin:0px;
     padding:0px;
+    font-weight: 400;
 }
 
 .MedicalRecord1-add-record{

@@ -63,11 +63,12 @@
     display: flex;
     justify-content: space-between;
       text-align: left;
-      font-size: 8px;
-      color: #000000;
-      font-weight: 100;
-      margin:0px;
-      padding:0px;
+      text-align: left;
+    font-size: 8px;
+    color: #1C274C;
+    font-weight: 500;
+    margin:0px;
+    padding:0px;
 }
   
 .MedicalRecordDates-record-date-img{

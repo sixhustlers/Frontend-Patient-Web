@@ -1,0 +1,190 @@
+.details-form-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 300px;
+    background-color: #dbe0ef;
+    padding: 0 30px;
+}
+
+.greeting {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1px;
+    font-family: Poppins;
+}
+
+.greeting h1 {
+    font-size: 30px;
+    font-weight: 500;
+    color: #495057;
+}
+
+.greeting .skip {
+    width: 60px;
+    height: 32px;
+    top: 79px;
+    left: 269px;
+    padding: 4px 8px 4px 8px;
+    gap: 10px;
+    border-radius: 10px;
+    opacity: 0px;
+    background: #3648ab;
+    color: #FFFFFF;
+}
+
+.greeting .skip:hover {
+    background: #516BFF;
+    color: #FFFFFF;
+}
+
+.message {
+    width: 300px;
+    height: 155px;
+    top: 128px;
+    left: 30px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 26px;
+    letter-spacing: -0.01em;
+    text-align: justify;
+
+}
+
+.add-image{
+    font-size: 14px;
+    font-weight: 300;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 40px;
+}
+.add-image-text{
+    width: 85.29px;
+    height: 30px;
+    margin-top: 5px;
+}
+
+.form{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-direction: column;
+    padding-left: 10px;
+}
+
+.input-field{
+width: 265px;
+height: 50px;
+gap: 0px;
+border-radius: 10px;
+border: 2px solid #516BFF;
+opacity: 0px;
+padding:0 15px;
+font-size: 18px;
+color: #495057;
+font-weight: 400;
+}
+.input-field::placeholder {
+    font-size: 18px;
+    font-weight: 400;
+    opacity: 0px;
+    color: #495057;
+    cursor: pointer;
+}
+.input-field:focus{
+    border: 3.5px solid #516BFF;
+    outline: none;
+    margin: -1.5px;
+}
+.form-label{
+    font-size: 18px;
+    font-weight:500;
+    line-height: 30px;
+    letter-spacing: -0.03em;
+    text-align: left;
+    color:  #516BFF;
+    opacity: 0px;
+    margin-left: 10px;
+ 
+}
+
+.form .name{
+    margin: 10px 0 10px;
+    display: flex;
+    flex-direction: column;
+    width: 315px;
+    height: auto;
+    text-align: left;
+}
+
+/* styling for the sex and blood group ot the patient */
+
+.sex-blood-group{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px 0;
+}
+.sex,.blood-group{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin: 0 35px 0 20px;
+}
+.sex-input-field,.blood-group-input-field{
+    width: 120px;
+    height: 50px;
+    gap: 0px;
+    border-radius: 10px;
+    border: 2px solid #516BFF;
+    opacity: 0px;
+    padding:0 10px;
+    font-size: 18px;
+    color: #495057;
+    background-color: #FFFFFF;
+}
+.sex-input-field:focus ,.blood-group-input-field:focus{
+    border: 3.5px solid #516BFF;
+    outline: none;
+    margin: 0px;
+}
+
+.sex-blood-group-form-label{
+    font-size: 18px;
+    font-weight:500;
+    line-height: 30px;
+    letter-spacing: -0.03em;
+    text-align: left;
+    color:  #516BFF;
+    opacity: 0px;
+    margin-left: 10px;
+}
+
+.submit-button{
+    width: 181.82px;
+    height: 50px;
+    border-radius: 10px;
+    opacity: 0px;
+    background: #516BFF;
+    color: #FFFFFF;
+    font-size: 20px;
+    text-align: center;
+    margin: 30px 0 45px;
+    padding: 5px 0;
+    
+}
+.submit-button:hover{
+   /* background: #1C274C; */
+    background: #3648ab;
+}
+.submit-button:focus{
+    outline: none;
+}

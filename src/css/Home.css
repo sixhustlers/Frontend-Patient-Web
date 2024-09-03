@@ -1,0 +1,50 @@
+.home {
+  width:300px;
+  padding:0 30px;
+  background-color: #dbe0ef;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.home-greet-bar{
+    display: flex;
+    width: 300px;
+    height: 55px;
+    padding: 0;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.home-greet-bar-img-text{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.home-greet-bar-img{
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+}
+.home-greet-bar-text{
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+}
+
+.home-greet-bar-img-text-h1{
+    text-align: left;
+    font-size: 20px;
+    margin:0px;
+    padding:0px;
+    font-weight: normal;
+}
+
+.home-greet-bar-img-text-p{
+    font-size: 16px;
+    text-align: left;
+    margin:0px;
+    padding:0px;
+    color: #516BFF;
+}
