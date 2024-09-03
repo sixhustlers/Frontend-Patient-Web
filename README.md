@@ -12,6 +12,8 @@ The Unified Health System (UHS) is a comprehensive healthcare solution designed 
 
 <img src="Screenshot 2024-09-02 082049.png" alt="UHS UseCase Diagrams" width="500" height="400">
 
+<a href="https://www.figma.com/design/gmpcIWJBRulMzjhgSzLWIi/Medic?node-id=0-1&node-type=CANVAS&t=6KEcZ6HQK4GljhbT-0">Figma Design Link</a>
+
 ## Key Features
 
 ### 1. Intelligent Appointment Booking
