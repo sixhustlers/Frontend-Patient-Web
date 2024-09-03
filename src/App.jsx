@@ -9,17 +9,28 @@ import Doctors from './screens/Doctors';
 import PatientDetails from './screens/RegisterForm';
 import Home from './screens/Home'
 
+//contexts
+import { AppointmentsProvider } from './contexts/AppointmentsContext'
+
 function App() {
 
   return (
-    <BrowserRouter basename='/'>
+    <BrowserRouter basename="/">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/detailsForm" element={<PatientDetails />} />
         <Route path="/*" element={<h1>Not Found 404</h1>} />
-        <Route path="/medicalRecord1" element={<MedicalRecord1 />} />
+        <Route
+          path="/medicalRecord1"
+          element={
+            <AppointmentsProvider>
+              <MedicalRecord1 />
+            </AppointmentsProvider>
+          }
+        />
         <Route path="/medicalRecord2" element={<MedicalRecord2 />} />
-        <Route path="/medicalRecord3" element={<MedicalRecord3 />} />
+        {/* <Route path="/medicalRecord3" element={<MedicalRecord3 />} /> */}
+        {/*medicalRecord3 not required */}
         <Route path="/medicalRecordDates" element={<MedicalRecordDates />} />
         <Route path="/hospitals" element={<Hospitals />} />
         <Route path="/doctors" element={<Doctors />} />
